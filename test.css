@@ -43,6 +43,8 @@ ul{
 	font-family: "Passion One";
 	color: #FFBC00;
 	font-weight: bold;
+	text-decoration: overline;
+	border-style: double;
 }
 
 p {
@@ -61,9 +63,14 @@ h3 {
 div {
 	background-color: #8E41D5;
 }
+div p {
+	background-color: yellow;
+}
 
 body {
 	background-image: url('dark_wood.png');
+	opacity: 0.5;
+	filter: alpha(opacity=50);
 }
 
 a {
